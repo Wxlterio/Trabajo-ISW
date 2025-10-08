@@ -24,7 +24,6 @@ export const userValidation = joi.object({
       "string.min": "La contraseña debe tener almenos 8 caracteres",
       "string.max": "La contraseña puede contener como maximo 16 caracteres",
       "any.invalid": "La contraseña no puede ser ninguno de estos ejemplos: password, contraseña, 12345678, administrador",
-      "string.base": "La contraseña tiene que ser de tipo texto"
     }),
 })
 .unknown(false)
